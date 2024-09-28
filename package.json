@@ -1,0 +1,22 @@
+{
+	"dependencies": {
+		"dotenv": "^16.4.5",
+		"express": "^4.21.0",
+		"mongoose": "^8.7.0"
+	},
+	"name": "tex4future-server",
+	"version": "1.0.0",
+	"description": "tex4future project collaboration platform side",
+	"main": "server.js",
+	"devDependencies": {
+		"colors": "^1.4.0",
+		"morgan": "^1.10.0",
+		"nodemon": "^3.1.7"
+	},
+	"scripts": {
+		"dev": "nodemon server.js",
+		"start": "node server.js"
+	},
+	"author": "Istam Rustamov",
+	"license": "ISC"
+}
